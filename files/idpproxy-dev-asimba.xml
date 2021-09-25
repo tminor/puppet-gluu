@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+ID="idpproxy-dev.usg.edu"
+entityID="https://idpproxy-dev.usg.edu/asimba/profiles/saml2">
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <ds:Reference URI="#idpproxy-dev.usg.edu">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <ds:DigestValue>
+        6AdVcjMX9LIQ6CzAUbGIDuASMZ0=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>
+    uq1JlzaEAiyxqLATRYf9XtnCHnbdFU0pAP5PNRmjFx9Jw13rcF+Q4K3zvUDR5jbzSF9dp4Ra39pfhzTyrRpscz+ShOObpkw7HC/KAEWrHhLpWd8hnOx9m6VRibGIkO10D2lx2IR7uuvXhMPmvjDqymI1GdQR8N6P93LjfNtj6h+5oelHzd228/8Z8rkTSAbWi0tDxl8maCsWNuOv7o1Xk4Wz78pDNc+t9UquQbz75elAWkHsi+QZEVqELzJ/0F8VP6kXetmwn/LtC24jeIAaQgSdPLyCe6G+ZIixZANZRsEWh6qR7OmvWWD4Ecnpa1ropu1jvHFVlW+tbA4m7MT2yg==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>
+        MIIEMjCCAxoCCQCCsjBUYI6g1zANBgkqhkiG9w0BAQsFADCB2jELMAkGA1UEBhMCVVMxEDAOBgNV
+        BAgTB0dlb3JnaWExDzANBgNVBAcTBkF0aGVuczE9MDsGA1UEChM0Qm9hcmQgb2YgUmVnZW50cyBv
+        ZiB0aGUgVW5pdmVyc2l0eSBTeXN0ZW0gb2YgR2VvcmdpYTEoMCYGA1UECxMfSW5mb3JtYXRpb24g
+        VGVjaG5vbG9neSBTZXJ2aWNlczEdMBsGA1UEAxMUaWRwcHJveHktZGV2LnVzZy5lZHUxIDAeBgkq
+        hkiG9w0BCQEWEXNzcy1tb250eUB1c2cuZWR1MB4XDTE3MDkwNjE0MzQyNFoXDTIyMDkwNTE0MzQy
+        NFowgdoxCzAJBgNVBAYTAlVTMRAwDgYDVQQIEwdHZW9yZ2lhMQ8wDQYDVQQHEwZBdGhlbnMxPTA7
+        BgNVBAoTNEJvYXJkIG9mIFJlZ2VudHMgb2YgdGhlIFVuaXZlcnNpdHkgU3lzdGVtIG9mIEdlb3Jn
+        aWExKDAmBgNVBAsTH0luZm9ybWF0aW9uIFRlY2hub2xvZ3kgU2VydmljZXMxHTAbBgNVBAMTFGlk
+        cHByb3h5LWRldi51c2cuZWR1MSAwHgYJKoZIhvcNAQkBFhFzc3MtbW9udHlAdXNnLmVkdTCCASIw
+        DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALxnFMxqDuI8EPpm2GME/ruVtybxbHGZlA4hzjai
+        RlJNdN4IXbQXrzAyJXFoxT0AQAvqYr3BSTAoMuJB0Uo0MFAJaFwO4dyKWhQSqMoO/2n5XMHfmzVD
+        ZGi2Z9WId5g81uFbwy38n2ipnkCySe+5Afzv4ChdckOR0X6eNV6NSq4wi6WvHDQxkN6JxYaNe5GR
+        2Q7lmMDvREfNxTbynjL0T41Mij9dRZV6sciuuAuGilw4tx8rfS+Rxw8cseRC7NseNt6ZnPBNqANL
+        egM9kV9yHuupQTJ96mtyVYcO52ZszwVuSi13lA4pkh98hVqbY/p9UU8FyL2rQr4gHLioMBgvVSkC
+        AwEAATANBgkqhkiG9w0BAQsFAAOCAQEAASwShSg3dq3wMsDSvGU8k++JIh/lSGaF+8GmLx0gQ2Lk
+        zdUECmIZRuXHlbDlDsk2VxXh5vfNoczgK2Ko6zLGKPEK4K9Urd/Gy7xUmDbrlZ4VmyTuhdfpTtwx
+        p868lRYHqxozB6y703CEgm21JNQfaFJuqIFciRXSxA1slszOMAmhvJablY0Kpv/a3MgE3HA5kg75
+        7MtCKMmhbH5+p07PY6pvnRZAQwBh0YfCpE6/ye/+YAApMk2EH6wUFy+f9tVo5S9bM3aACTk3h8Xp
+        fVQ3MMfA6G9tfCjyx+i2f1jh/rS8p454Raz/DPUfPlXhAz83GdDFBsxBPxueChfi5BAQBQ==</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true"
+  WantAssertionsSigned="true"
+  protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>
+          MIIEMjCCAxoCCQCCsjBUYI6g1zANBgkqhkiG9w0BAQsFADCB2jELMAkGA1UEBhMCVVMxEDAOBgNV
+          BAgTB0dlb3JnaWExDzANBgNVBAcTBkF0aGVuczE9MDsGA1UEChM0Qm9hcmQgb2YgUmVnZW50cyBv
+          ZiB0aGUgVW5pdmVyc2l0eSBTeXN0ZW0gb2YgR2VvcmdpYTEoMCYGA1UECxMfSW5mb3JtYXRpb24g
+          VGVjaG5vbG9neSBTZXJ2aWNlczEdMBsGA1UEAxMUaWRwcHJveHktZGV2LnVzZy5lZHUxIDAeBgkq
+          hkiG9w0BCQEWEXNzcy1tb250eUB1c2cuZWR1MB4XDTE3MDkwNjE0MzQyNFoXDTIyMDkwNTE0MzQy
+          NFowgdoxCzAJBgNVBAYTAlVTMRAwDgYDVQQIEwdHZW9yZ2lhMQ8wDQYDVQQHEwZBdGhlbnMxPTA7
+          BgNVBAoTNEJvYXJkIG9mIFJlZ2VudHMgb2YgdGhlIFVuaXZlcnNpdHkgU3lzdGVtIG9mIEdlb3Jn
+          aWExKDAmBgNVBAsTH0luZm9ybWF0aW9uIFRlY2hub2xvZ3kgU2VydmljZXMxHTAbBgNVBAMTFGlk
+          cHByb3h5LWRldi51c2cuZWR1MSAwHgYJKoZIhvcNAQkBFhFzc3MtbW9udHlAdXNnLmVkdTCCASIw
+          DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALxnFMxqDuI8EPpm2GME/ruVtybxbHGZlA4hzjai
+          RlJNdN4IXbQXrzAyJXFoxT0AQAvqYr3BSTAoMuJB0Uo0MFAJaFwO4dyKWhQSqMoO/2n5XMHfmzVD
+          ZGi2Z9WId5g81uFbwy38n2ipnkCySe+5Afzv4ChdckOR0X6eNV6NSq4wi6WvHDQxkN6JxYaNe5GR
+          2Q7lmMDvREfNxTbynjL0T41Mij9dRZV6sciuuAuGilw4tx8rfS+Rxw8cseRC7NseNt6ZnPBNqANL
+          egM9kV9yHuupQTJ96mtyVYcO52ZszwVuSi13lA4pkh98hVqbY/p9UU8FyL2rQr4gHLioMBgvVSkC
+          AwEAATANBgkqhkiG9w0BAQsFAAOCAQEAASwShSg3dq3wMsDSvGU8k++JIh/lSGaF+8GmLx0gQ2Lk
+          zdUECmIZRuXHlbDlDsk2VxXh5vfNoczgK2Ko6zLGKPEK4K9Urd/Gy7xUmDbrlZ4VmyTuhdfpTtwx
+          p868lRYHqxozB6y703CEgm21JNQfaFJuqIFciRXSxA1slszOMAmhvJablY0Kpv/a3MgE3HA5kg75
+          7MtCKMmhbH5+p07PY6pvnRZAQwBh0YfCpE6/ye/+YAApMk2EH6wUFy+f9tVo5S9bM3aACTk3h8Xp
+          fVQ3MMfA6G9tfCjyx+i2f1jh/rS8p454Raz/DPUfPlXhAz83GdDFBsxBPxueChfi5BAQBQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+    Location="https://idpproxy-dev.usg.edu/asimba/profiles/saml2/sp/sso/web"
+    index="0" isDefault="true" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact"
+    Location="https://idpproxy-dev.usg.edu/asimba/profiles/saml2/sp/sso/web"
+    index="1" isDefault="false" />
+  </md:SPSSODescriptor>
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="false"
+  protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>
+          MIIEMjCCAxoCCQCCsjBUYI6g1zANBgkqhkiG9w0BAQsFADCB2jELMAkGA1UEBhMCVVMxEDAOBgNV
+          BAgTB0dlb3JnaWExDzANBgNVBAcTBkF0aGVuczE9MDsGA1UEChM0Qm9hcmQgb2YgUmVnZW50cyBv
+          ZiB0aGUgVW5pdmVyc2l0eSBTeXN0ZW0gb2YgR2VvcmdpYTEoMCYGA1UECxMfSW5mb3JtYXRpb24g
+          VGVjaG5vbG9neSBTZXJ2aWNlczEdMBsGA1UEAxMUaWRwcHJveHktZGV2LnVzZy5lZHUxIDAeBgkq
+          hkiG9w0BCQEWEXNzcy1tb250eUB1c2cuZWR1MB4XDTE3MDkwNjE0MzQyNFoXDTIyMDkwNTE0MzQy
+          NFowgdoxCzAJBgNVBAYTAlVTMRAwDgYDVQQIEwdHZW9yZ2lhMQ8wDQYDVQQHEwZBdGhlbnMxPTA7
+          BgNVBAoTNEJvYXJkIG9mIFJlZ2VudHMgb2YgdGhlIFVuaXZlcnNpdHkgU3lzdGVtIG9mIEdlb3Jn
+          aWExKDAmBgNVBAsTH0luZm9ybWF0aW9uIFRlY2hub2xvZ3kgU2VydmljZXMxHTAbBgNVBAMTFGlk
+          cHByb3h5LWRldi51c2cuZWR1MSAwHgYJKoZIhvcNAQkBFhFzc3MtbW9udHlAdXNnLmVkdTCCASIw
+          DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALxnFMxqDuI8EPpm2GME/ruVtybxbHGZlA4hzjai
+          RlJNdN4IXbQXrzAyJXFoxT0AQAvqYr3BSTAoMuJB0Uo0MFAJaFwO4dyKWhQSqMoO/2n5XMHfmzVD
+          ZGi2Z9WId5g81uFbwy38n2ipnkCySe+5Afzv4ChdckOR0X6eNV6NSq4wi6WvHDQxkN6JxYaNe5GR
+          2Q7lmMDvREfNxTbynjL0T41Mij9dRZV6sciuuAuGilw4tx8rfS+Rxw8cseRC7NseNt6ZnPBNqANL
+          egM9kV9yHuupQTJ96mtyVYcO52ZszwVuSi13lA4pkh98hVqbY/p9UU8FyL2rQr4gHLioMBgvVSkC
+          AwEAATANBgkqhkiG9w0BAQsFAAOCAQEAASwShSg3dq3wMsDSvGU8k++JIh/lSGaF+8GmLx0gQ2Lk
+          zdUECmIZRuXHlbDlDsk2VxXh5vfNoczgK2Ko6zLGKPEK4K9Urd/Gy7xUmDbrlZ4VmyTuhdfpTtwx
+          p868lRYHqxozB6y703CEgm21JNQfaFJuqIFciRXSxA1slszOMAmhvJablY0Kpv/a3MgE3HA5kg75
+          7MtCKMmhbH5+p07PY6pvnRZAQwBh0YfCpE6/ye/+YAApMk2EH6wUFy+f9tVo5S9bM3aACTk3h8Xp
+          fVQ3MMfA6G9tfCjyx+i2f1jh/rS8p454Raz/DPUfPlXhAz83GdDFBsxBPxueChfi5BAQBQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+    Location="https://idpproxy-dev.usg.edu/asimba/profiles/saml2/sso/logout" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+    Location="https://idpproxy-dev.usg.edu/asimba/profiles/saml2/sso/logout" />
+    <md:NameIDFormat>
+    urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>
+    urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:NameIDFormat>
+    urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:NameIDFormat>
+    urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+    Location="https://idpproxy-dev.usg.edu/asimba/profiles/saml2/sso/web" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+    Location="https://idpproxy-dev.usg.edu/asimba/profiles/saml2/sso/web" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact"
+    Location="https://idpproxy-dev.usg.edu/asimba/profiles/saml2/sso/web" />
+  </md:IDPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">
+    idpproxy-dev.usg.edu</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Gluu Asimba
+    SSO</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">
+    http://www.gluu.org</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

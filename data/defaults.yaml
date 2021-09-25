@@ -1,0 +1,7 @@
+---
+gluu::version: 4.2.3
+gluu::package_ensure: true
+gluu::package_url_base: 'https://repo.gluu.org/'
+gluu::service_name: 'systemd-nspawn@gluu-server.service'
+gluu::service_ensure: 'running'
+gluu::service_enable: true
